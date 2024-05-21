@@ -16,7 +16,7 @@ In this assignment, you will be using a python package that allows you to progra
 
 In this part, you will install and tinker with the "Wikipedia API for Python".
 
-## Download and Install Instructions
+## Download and Install Instructions - INSTALLED
 
 Open up the command line and install wikipedia using pip (`pip install wikipedia`). If successful you should see something like this (run on macOS):
 
@@ -31,6 +31,15 @@ We will go over this in class, but to use the python interpreter, you will type 
 1. At the python interpreter (`>>>`) type `import wikipedia` and hit enter. If no error messages appear then you have successfully installed and imported the Wikipedia API for Python. Congrats!
 2. The documentation for the Wikipedia API for Python can be found [here](https://wikipedia.readthedocs.io/en/latest/code.html). This site lists all of the functions that you can execute and some important related classes. Being able to read documentation is an incredibly valuable skill both in the real world and in future classes. It can also be really hard to understand and takes experience to know how to read it well, ask a TA for advice on how to read it if you're having difficulty!
 3. Let's try grabbing the contents of a Wikipedia page. If you do a google search for "Wikipedia lane tech", you'll find [this result](https://en.wikipedia.org/wiki/Lane_Tech_College_Prep_High_School). Notice that "Lane_Tech_College_Prep_High_School" is the last part of the URL. This means that "Lane Tech College Prep High School" is the name of a Wikipedia page that you can grab the content of. After importing wikipedia (like we did in step 1) run the below in the interpreter (feel free to copy and paste):
+
+
+
+______________________________________________________________
+______________________________________________________________
+
+
+
+
 
     ```python
     >>> lane_page = wikipedia.WikipediaPage("Lane Tech College Prep High School")
